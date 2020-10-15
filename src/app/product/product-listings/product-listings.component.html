@@ -1,6 +1,4 @@
 <div class="container">
-    <div class="myclass"><h1>こんにちは</h1></div>
-    <br>
     <div class="row">
         <div *ngFor="let product of products; let productId = index" class="col-sm">
             <a [routerLink]="[ product._id ]">
